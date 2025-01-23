@@ -1,0 +1,249 @@
+html,body{
+	font-family: 'Merriweather', serif;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-page{
+	background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper{
+	width:1170px;
+	margin: 0 auto;
+	height: 100%;
+	position:relative;
+}
+
+.main-header{
+	margin-top: 34px;
+	margin-bottom: 58px;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.main-header p{
+	margin-left: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #181D1F;
+}
+
+h1{
+	font-weight: 600;
+	font-size: 54px;
+	line-height: 72px;
+	color: #181D1F;
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+
+h3{
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #181D1F;
+	margin-bottom: 4px;
+}
+
+h2{
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 100px;
+	color: #181D1F;
+	margin: 8px 0 16px 0;a
+}
+
+.banderogus-container{
+	background: #ffffff;
+	padding: 60px 56px;
+	width: 576px;
+	align-self: center;
+}
+
+/*main header*/
+h4{ 
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 24px;
+	margin:12px 0 16px 0;
+	color: #181D1F;
+}
+/*main body*/
+p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #181D1F;
+	margin: 16px 0;
+}
+
+.gus-launch{
+	background: #FF6B0A;
+	border-radius: 8px;
+	padding: 12px 24px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+	cursor: pointer;
+}
+
+.gus-img{
+	align-self: flex-end;
+/*	height: 100%;*/
+}
+
+.row{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.gus-facts{
+	padding: 52px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1170px;
+	align-self: center;
+}
+
+.ukr-logo{
+	display: flex;
+}
+
+.p-center{
+	text-align: center;
+	width: 876px;
+}
+
+.orange{
+	color: orange;
+}
+
+.gus-facts-item{
+	width: 374px;
+}
+
+.facts-description{
+	margin: 0 48px
+}
+
+.gus-facts-item img{
+	width: 100%;
+}
+
+footer, .victory-bg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.victory-bg{
+	padding: 52px 0 72px 0;
+	width: 1170px;
+	background: linear-gradient(270deg, #D1EEFF 0%, #D1EEFF 0.01%, #FFFFFF 100%);
+	margin-bottom: 72px;
+}
+
+.modal-bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #181d1fb3;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.modal-form-container{
+	background: #fff;
+	padding: 32px 0 60px 0;
+	position: relative;
+	width: 576px;
+}
+
+.modal-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.p-modal{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.h-modal{
+	margin-top: 32px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+.modal-form-field{
+	padding: 8px 0;
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+
+#launch-btn{
+	margin-top: 32px;
+}
+
+input{
+	background: #FFFFFF;
+	border: 1px solid #A5DEFF;
+	border-radius: 8px;
+	width: 100%;
+	height: 48px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #181D1F;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #181D1F;
+}
+
+.close-btn{
+	position: absolute;
+	right: 24px;
+	top: 24px;
+	width: 24px;
+	height: 24px;
+	border: 0;
+	font-size: 18px;
+	line-height: 14px;
+	background: none;
+	cursor: pointer;
+}
+
+.modal-active{
+	opacity: 1;
+	pointer-events: all;
+}

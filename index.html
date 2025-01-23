@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./css/reste.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	<title>Бандерогусь</title>
+</head>
+<body>
+	<section class="main-page">
+		<div class="wrapper">
+		<header class="main-header">
+			<img src="./img/logo.svg" alt="Логотип">
+			<p class="p-logo">Школа підготовки <br>IT-спеціалістів</p>
+		</header>
+		<div class="row">
+			<div class="banderogus-container">
+				<h3>Доброго вечора, ми з України</h3>
+				<h4 class="orange">На старт. Увага. Полетіли!</h4>
+				<h1>Бандерогусь</h1>
+				<p>Спеціальний бойовий гусак із біолабораторій України. Пишаюся своїми подвигами, бороню Батьківщину та підтримую позитивний дух народу. Слава Україні!</p>
+				<button class="gus-launch" id="open-form-modal-btn">Запустити гуся</button>
+			</div>
+			<img class="gus-img" src="./img/gus.svg" alt="Бандерогусь">
+		</div>
+		</div>
+	</section>
+
+	<section class="gus-facts">
+
+		<img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
+		<h2 class="center">Цікаві факти про бандерогусей</h2>
+		<p class="p-center">Зазвичай бандерогуси — виключно мирні птахи. Але у разі небезпеки можуть атакувати ворога системою надпотужного озброєння. Також нищать психологічно, активуючи високочастотне шипіння та розмахування крилами</p>
+
+		<div class="row">
+			<div class="gus-facts-item">
+				<img src="./img/gus1.svg" alt="gus1">
+				<div class="facts-description">
+					<h4>Система навігації</h4>
+					<p>Супутниковий GPS та ехолокатори розпізнають ворожу техніку навіть на етапі збірки</p>
+				</div>
+			</div>
+			<div class="gus-facts-item">
+				<img src="./img/gus2.svg" als="gus2">
+				<div class="facts-description">
+					<h4>Очі-тепловізори</h4>
+					<p>Допомагають виявити характер сигнатури об’єктів та значно підвищують точність удару</p>
+				</div>
+			</div>
+			<div class="gus-facts-item">
+				<img src="./img/gus3.svg" alt="gus3">
+				<div class="facts-description">
+					<h4>Байракрила</h4>
+					<p>Можуть нести 2-4 керовані ракети, що вражають ціль на відстані «ніхріна собі» кілометрів</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="victory-bg">
+			<img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
+			<h2>Перемога завжди за нами!</h2>
+			<p class="p-center">Головна мета бандерогусей — служити гумору та доброті нашого народу. Ми забезпечимо вашу посмішку у часи, коли вона так необхідна</p>
+		</div>
+	</footer>
+	<div class="modal-bg" id="form-modal">
+		<div class="modal-form-container">
+			<button class="close-btn">×</button>
+			<form class="modal-form" id="form" data-netlify="true">
+				<img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
+				<h4 class="h-modal">Поділися, будь ласка, поштою</h4>
+				<p class="p-modal">та запиши гуся до бандерозагону</p>
+				<div class="modal-form-field">
+					<label for="name"> Ім’я </label>
+					<input type="text" name="Ім’я" id="name">
+				</div>
+				<div class="modal-form-field">
+					<label for="user-email"> E-mail </label>
+					<input type="email" name="E-mail" id="user-email">
+				</div>
+				<button class="gus-launch" id="launch-btn">Запустити гуся</button>
+			</form>
+		</div>
+	</div>
+	<div class="modal-bg" id="success-modal">
+		<div class="modal-form modal-form-container">
+			<button class="close-btn">×</button>
+			<img src="./img/trezub.svg" alt="ukr logo" class="ukr-logo">
+			<h4 class="h-modal">Вітаю!<br>Гуся успішно запущено!</h4>
+			<p class="p-modal">Слава Україні! Героям Слава!</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="./scripts/form.js"></script>
+</body>
+</html>
